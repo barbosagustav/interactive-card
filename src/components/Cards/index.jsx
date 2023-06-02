@@ -2,6 +2,9 @@ import './cards.css'
 
 const Cards = () => {
     return (
+        <>
+        <div className="container">
+        </div>
         <div className="cards">
             <div className="card-back">
                 <img src="./src/images/bg-card-back.png" alt="Card Back" />
@@ -15,6 +18,7 @@ const Cards = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
