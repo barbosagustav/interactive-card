@@ -40,6 +40,14 @@
         height: 157px;
         position: absolute;
         right: 0px;
+        
+    }
+
+    .cvc {
+        font-size: 9px;
+        position: absolute;
+        right: 35px;
+        top: 73px;
     }
 
     .cards img {
@@ -63,65 +71,5 @@
         bottom: 20px;
     }
 
-    .form {
-        position: absolute;
-        bottom: 45px;
-        left: 24px;
-        width: 327px;
-    }
 
-    .form h3 {
-        color: #21092F;
-        font-size: 13px;
-    }
-
-    .form input {
-        padding-left: 16px;
-        box-sizing: border-box;
-        margin: 8px 0px 20px 0px;
-        height: 45px;
-        width: 327px;
-        border-radius: 10px;
-        border: solid 1px #DFDEE0;
-        border-radius: 10px;
-
-    }
-
-    .container-dois {
-        display: flex;
-    }
-
-    .display-flex {
-        display: flex;
-    }
-
-    .container-dois :nth-child(1) {
-        box-sizing: border-box;
-        margin: 8px 8px 8px 0px;
-        height: 45px;
-        margin-right: 8px;
-        width: 72px;
-    }
-
-    .container-dois :nth-child(2) {
-        box-sizing: border-box;
-        margin: 8px 8px 8px 0px;
-        height: 45px;
-        width: 72px;
-    }
-
-    .container-dois :nth-child(3) {
-        box-sizing: border-box;
-        margin: 8px 8px 8px 0px;
-        height: 45px;
-        width: 164px;
-    }
-
-    button {
-        color: white;
-        width: 327px;
-        height: 53px;
-        background-color: #21092F;
-        border-radius: 10px;
-    }
 }
