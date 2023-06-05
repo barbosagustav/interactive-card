@@ -7,11 +7,11 @@ function Cards({ number, nome, month, year, cvc }) {
       <div className="container"></div>
       <div className="cards">
         <div className="card-back">
-          <img src="src/img/bg-card-back.png" alt="Card Back" />
+          <img src="./src/img/bg-card-back.png" alt="Card Back" />
           <div className="cvc">{cvc}</div>
         </div>
         <div className="card-front">
-          <img src="src/img/bg-card-front.png" alt="Card Front" />
+          <img src="./src/img/bg-card-front.png" alt="Card Front" />
           <h3 className='number'>{number}</h3>
           <div className="display-flex">
             <div className="name">{nome}</div>
