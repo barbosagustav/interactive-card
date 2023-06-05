@@ -2,7 +2,7 @@
         margin: 0;
         width: 100%;
         height: 240px;
-        background-image: url(../../img/bg-main-mobile.png);
+        background-image: url(../../assets/img/bg-main-mobile.png);
         background-size: cover;
     }
 
@@ -11,7 +11,7 @@
             position: absolute;
             width: 33%;
             height: 100%;
-            background-image: url(../../img/bg-main-desktop.png);
+            background-image: url(../../assets/img/bg-main-desktop.png);
         }
     }
 
