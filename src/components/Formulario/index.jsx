@@ -23,7 +23,7 @@ function Formulario({ nome, number, month, year, cvc, handleChange, handleClick,
         />
         <div className="display-flex">
           <h3>EXP. DATE (MM/YY)</h3>
-          <h3>CVC</h3>
+          <h3 className='cvc-margin'>CVC</h3>
         </div>
         <div className="container-dois">
           <input
