@@ -12,7 +12,6 @@ function Formulario({ nome, number, month, year, cvc, handleChange, handleClick,
           name="nome"
           value={nome}
           onChange={handleChange}
-          required
         />
         <h3>CARD NUMBER</h3>
         <input
@@ -21,7 +20,6 @@ function Formulario({ nome, number, month, year, cvc, handleChange, handleClick,
           name="number"
           value={number}
           onChange={handleChange}
-          required
         />
         <div className="display-flex">
           <h3>EXP. DATE (MM/YY)</h3>
@@ -34,7 +32,6 @@ function Formulario({ nome, number, month, year, cvc, handleChange, handleClick,
             name="month"
             value={month}
             onChange={handleChange}
-            required
           />
           <input
             placeholder="YY"
@@ -42,7 +39,6 @@ function Formulario({ nome, number, month, year, cvc, handleChange, handleClick,
             name="year"
             value={year}
             onChange={handleChange}
-            required
           />
           <input placeholder="e.g 123"
             type="number"
