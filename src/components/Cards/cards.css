@@ -60,6 +60,7 @@
         left: 0px;
         bottom: 0px;
         background-image: url(../../assets/img/bg-card-front.png);
+        background-size: cover;
     }
 
     @media (min-width: 1120px) {
@@ -77,6 +78,7 @@
         position: absolute;
         right: 0px;
         background-image: url(../../assets/img/bg-card-back.png);
+        background-size: cover;
     }
 
     @media (min-width: 1120px) {
